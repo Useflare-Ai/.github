@@ -1,23 +1,34 @@
 # FLARE
 
-**Creator intelligence for better commercial decisions.**
+**Creator intelligence, from discovery to outreach.**
 
-FLARE brings creator discovery, brand intelligence, agency relationships and outreach workflows into one platform. Built for teams that need to move from finding an opportunity to acting on it.
+[**Explore the platform**](https://useflare.ai)
 
-[Explore FLARE](https://useflare.ai)
+---
 
-### What we're building
+FLARE is a research and workflow platform for teams working across the creator economy. It connects creator discovery, brand activity, agency relationships and outreach in one place.
 
-- **Creator discovery:** Find and evaluate creators using audience, content and performance signals.
-- **Brand intelligence:** Understand brand activity and explore relevant creator relationships.
-- **Agency intelligence:** Research agencies, rosters and representation evidence.
-- **Outreach workflows:** Turn research into targeted conversations and track replies.
+### The platform
 
-### Engineering
+| Discover | Understand | Act |
+| :--- | :--- | :--- |
+| Find creators and explore their content and performance. | Research brands, commercial activity and agency relationships. | Build shortlists, prepare outreach and manage conversations. |
 
-Our work spans data ingestion, enrichment, entity resolution, search, evidence classification and application engineering. We prioritise traceable evidence, clear data provenance and reliable workflows.
+### How we think about the work
 
-The FLARE application and operational pipelines are maintained in private repositories. This public profile is an introduction to the organisation, not a source-code mirror.
+**Evidence over assumptions.** A mention is not automatically a sponsorship. An estimated metric is not a verified financial result. We build to preserve those distinctions.
+
+**History matters.** New data should improve a record without silently erasing useful context or provenance.
+
+**Useful beats impressive-looking.** The product should help teams make a decision, not just display another dashboard.
+
+**Systems should be operable.** Clear ownership, reviewable changes, practical testing and recovery paths are part of shipping.
+
+### Engineering at FLARE
+
+Our engineering work spans ingestion and refresh pipelines, entity resolution, search and discovery, commercial-signal analysis, and the applications that turn those signals into usable workflows.
+
+Our application and processing repositories are private. Public materials here describe the product and our approach; they do not expose proprietary systems, credentials or customer data.
 
 ---
 
