@@ -1,70 +1,47 @@
 # FLARE
 
-**Creator intelligence, from discovery to outreach.**
+### Creator intelligence. Built for action.
 
-[Explore the platform](https://useflare.ai)
+FLARE helps teams discover creators, understand brand activity, explore agency relationships and move from research to outreach with confidence.
+
+[Explore FLARE](https://useflare.ai)
 
 ---
 
-FLARE is a research and workflow platform for teams working across the creator economy. It connects creator discovery, brand activity, agency relationships and outreach in one place.
+## What we build
 
-## The platform
+**Creator discovery**  
+Find relevant creators and assess their content, audience signals and performance.
 
-| Discover | Understand | Act |
-| :--- | :--- | :--- |
-| Find creators and explore their content and performance. | Research brands, commercial activity and agency relationships. | Build shortlists, prepare outreach and manage conversations. |
+**Brand intelligence**  
+Understand how brands appear across creator content, with clear distinctions between commercial partnerships and other mentions.
 
-## Architecture
+**Agency intelligence**  
+Explore representation, agency relationships and relevant market context.
 
-FLARE combines a web application with separate data processing systems.
+**Outreach workflows**  
+Move from research and shortlists to personalised communication and relationship management.
 
-| Component | Responsibility |
-| :--- | :--- |
-| Application | Next.js and TypeScript interface, APIs and operational workflows |
-| Serving layer | PostgreSQL-backed discovery, account and workflow data |
-| Intelligence layer | Creator, brand and agency relationships, entity resolution and commercial evidence |
-| Data pipelines | Collection, enrichment and scheduled refresh of source information |
-| Integrations | Connected email, outreach and supporting platform services |
-
-## Capabilities
-
-- **Creator discovery:** Explore creators, their content and performance signals.
-- **Brand intelligence:** Research brand activity and creator relationships.
-- **Agency intelligence:** Explore agency records, representation evidence and rosters.
-- **Outreach workflows:** Build shortlists, prepare personalised communication and manage conversations.
-- **Commercial evidence:** Distinguish sponsorship disclosures, affiliate activity and weaker brand associations where evidence permits.
+**Automation**  
+Turn evidence into repeatable workflows and useful, decision-ready outputs.
 
 ## Technology
 
-| Area | Technologies used in the application |
-| :--- | :--- |
-| Web | Next.js, React, TypeScript |
-| Data | PostgreSQL, Neon, BigQuery |
-| UI | Tailwind CSS, Recharts |
-| Services | Vercel, Google integrations and email providers |
+We build with a modern, pragmatic stack. Selected technologies include:
 
-These are selected technologies verified in the application repository, not an exhaustive inventory of the wider infrastructure.
+`TypeScript` · `Next.js` · `React` · `PostgreSQL` · `Neon` · `Google BigQuery` · `Tailwind CSS` · `Vercel`
 
-## Repository structure
+This is a selection of technologies, not a description of FLARE's internal architecture, infrastructure configuration or proprietary processing methods.
 
-| Repository | Purpose |
-| :--- | :--- |
-| `flare` *(private)* | Main FLARE application |
-| `flare-core-pipeline` *(private)* | Core data processing |
-| `flare-yt-cron` *(private)* | Scheduled YouTube processing |
-| `flare-backup` and `flare-dev-backup` *(private)* | Backup repositories retained for recovery |
+## How we think about the product
 
-Application and pipeline repositories remain private. Public documentation does not expose internal deployment configuration, credentials or customer data.
+**Evidence first.** Creator-brand associations should be explained, not overstated.
 
-## Engineering principles
+**Built for useful decisions.** Discovery matters most when it leads to confident action.
 
-**Evidence over assumptions.** A mention is not automatically a sponsorship. An estimated metric is not a verified financial result.
+**Automation with accountability.** Repeated work should become repeatable systems, with appropriate safeguards.
 
-**History matters.** New data should improve a record without silently erasing context or provenance.
-
-**Useful beats impressive-looking.** The product should help teams make decisions, not just display dashboards.
-
-**Systems should be operable.** Clear ownership, reviewable changes, practical testing and recovery paths are part of shipping.
+**Privacy by design.** Protect customer conversations, account information and commercial data.
 
 ---
 
